@@ -1,0 +1,36 @@
+{
+	"name": "airlock",
+	"version": "0.1.0",
+	"private": true,
+	"main": "dist/index.js",
+	"scripts": {
+		"watch": "noderize-scripts watch",
+		"build": "noderize-scripts build",
+		"start": "noderize-scripts start",
+		"format": "noderize-scripts format",
+		"test": "noderize-scripts test",
+		"clean": "noderize-scripts clean"
+	},
+	"devDependencies": {
+		"@noderize/scripts": "^0.4.2",
+		"json-loader": "^0.5.7"
+	},
+	"dependencies": {
+		"@noderize/runtime": "^0.4.2",
+		"bip39": "^2.5.0",
+		"coininfo": "^4.0.0",
+		"eth-hd-wallet": "^0.3.0",
+		"ethereum-bip44": "^2.1.3",
+		"ethereumjs-tx": "^1.3.4",
+		"ethereumjs-util": "^5.1.5",
+		"ethereumjs-wallet": "^0.6.0",
+		"fas": "^0.3.6",
+		"fs": "^0.0.1-security",
+		"hdkey": "^0.8.0",
+		"jsonfile": "^4.0.0",
+		"web3": "^1.0.0-beta.33"
+	},
+	"noderize": {
+		"languages": "typescript"
+	}
+}
