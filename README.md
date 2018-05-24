@@ -14,6 +14,9 @@ Noderize
 
 **All configuration variables are located in config.ts
 **
+To Run: 
+> yarn install 
+> yarn watch
 #### HD Address generation:
 
 ##### Motivation:
